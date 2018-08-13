@@ -8,7 +8,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/tomaFoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -18,28 +18,30 @@
         app:srcCompat="@drawable/ic_camera_alt_black_48dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/tomaVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_marginEnd="27dp"
+        android:layout_alignTop="@+id/tomaFoto"
+        android:layout_marginEnd="25dp"
         app:srcCompat="@drawable/ic_videocam_black_48dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/pickFoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageView"
-        android:layout_marginBottom="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="105dp"
+        android:layout_marginStart="39dp"
         app:srcCompat="@drawable/ic_insert_photo_black_48dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/pickVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/pickFoto"
+        android:layout_marginEnd="35dp"
         app:srcCompat="@drawable/ic_video_library_black_48dp" />
 </RelativeLayout>
